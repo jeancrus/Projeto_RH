@@ -41,7 +41,7 @@ public class ContratoHora {
 		this.horas = horas;
 	}
 	
-	public Double valorTotal() {
+	public Double valorTotal() { //horas trabalhadas do contrato, valor por hora * hora trabalhada
 		return valorPorHora * horas;
 	}
 	
